@@ -1,0 +1,63 @@
+
+body{
+
+  background-color:#EAF6F6;
+  background-image: url(background1.jpg);
+}
+
+
+
+h1{
+  color:#66BFBF;
+
+   text-shadow: 1px 1px 2px #EAF6F6, 0 0 25px #66BFBF, 0 0 5px #66BFBF;
+   animation-duration: 3s;
+   animation-name: rotate;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+h2{
+  color:#66BFBF;
+  text-shadow: 0 0 3px #66BFBF;
+}
+
+hr{
+
+
+  border-style:none;
+  border-top-style:dotted;
+  border-top-width: thick;
+
+  border-top-color:grey;
+  border-width: 5px;
+  width: 3%;
+}
+
+
+p {
+  font-style: italic;
+  color: #161853;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 1%;
+    width: 100%;
+  }
+}
