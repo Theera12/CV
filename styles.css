@@ -11,17 +11,9 @@ h1{
   color:#66BFBF;
 
    text-shadow: 1px 1px 2px #EAF6F6, 0 0 25px #66BFBF, 0 0 5px #66BFBF;
-   animation-duration: 3s;
-   animation-name: rotate;
+  
 }
-@keyframes rotate {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 
 
 
